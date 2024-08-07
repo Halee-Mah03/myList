@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    font-family: Quicksand;
+    padding: 0;
+  }
+  body{
+  width: 500px;
+  margin: 0 auto;
+  max-height: 550px;
+  margin-top: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .myheader{
+    padding: 20px;
+    background-color: #333;
+  }
+  .myheader h1{
+    color: #f1356d;
+    text-align: center;
+  }
+
+  .mycontent {
+  cursor: pointer;
+  background: #eee;
+  padding: 12px;
+  font-size: 20px;
+  }
+  .mycontent button{
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    padding: 3px;
+    background-color: #f1356d;
+    color: white;
+    outline: none;
+    border: none;
+  }
+
+  .mycontents{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+  }
+  .mycontents label{
+    font-weight: bolder;
+  }
+  
+  
+.myfooter{
+  background-color: #333;
+  padding: 20px;
+  
+}
+.myfooter input{
+  width: 65%;
+  padding: 8px;
+  font-size: 17px;
+}
+
+.myfooter button{
+  padding: 8px;
+  width: 27%;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border: #f1356d 4px solid;
+}
+
+
+
+
+
+
